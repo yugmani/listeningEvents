@@ -1,5 +1,12 @@
+html, body {
+  margin:0;
+  padding:0;
+}
+
 .container {
-  margin: 50px 100px;
+  margin:0 auto;
+  padding: 50px 100px;
+  background-color:lightgray;
 }
 
 input, select, button {
@@ -15,4 +22,39 @@ button {
 
 .hide {
   display: none;
+}
+
+#event-type {
+  color:black;
+  font-size:30px;
+  /* margin:20px; */
+  padding:10px;
+  height:auto;
+  border-radius:15px;
+}
+
+#wrapper {
+  margin:0 auto;
+  text-align:center;
+  background-color:gray;
+  padding:20px;
+}
+
+#key-events, #click-events {
+  margin:0 auto;
+  background-color:whitesmoke;
+  text-align:center;
+  padding:20px;
+}
+
+#key, #code, #status {
+  font-size:25px;
+  font-weight:bold;
+  color:blue;
+}
+
+#target, #x, #y {
+  font-size:25px;
+  font-weight:bold;
+  color:red;
 }
